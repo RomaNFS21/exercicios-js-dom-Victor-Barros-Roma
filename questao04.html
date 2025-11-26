@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 4</title>
+    <link rel="stylesheet" href="questao04.css">
+</head>
+<body>
+    <h1>Formulário de Cadastro</h1>
+
+    <div>
+    <label for="nome completo">Nome Completo: </label> <br>
+    <input type="text" name="" id="nome" required>
+    </div>
+    <br>
+
+    <div>
+    <label for="">Data de Nascimento: </label> <br>
+    <input type="date" name="" id="dataNasc">
+    </div>
+    <br>
+
+    <div>
+    <label for="">CPF: </label> <br>
+    <input type="text" name="" placeholder="000.000.000-00" id="cpf" required>
+    </div>
+    <br>
+
+    <div>
+    <label for="">E-mail: </label> <br>
+    <input type="email" name="" id="email">
+    </div>
+    <br>
+
+    <div>
+    <label for="">Telefone: </label> <br>
+    <input type="text" name="" placeholder="(xx) xxxxx-xxxx" id="telefone"> 
+    </div>
+    <br>
+
+    <div>
+    <button type="button" id="validar" onclick="validarFormulario()">Validar Cadastro</button>
+    </div>
+    
+    <p id="mensagem"></p>
+
+    <script src="questao04.js"></script>
+</body>
+</html>
